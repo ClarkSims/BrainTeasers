@@ -169,6 +169,7 @@ if __name__ == '__main__':
     print(gene)
     fcount = open('short_count.txt', 'w')
     foffset = open('short_offset.txt', 'w')
+    command = ['./find_gene', gene]
     for j in range(5):
         chromosome = random_chromosome(gene, j + 2, 10)
         numoccur = sol.findNumAnagrams(chromosome, gene)
@@ -176,6 +177,7 @@ if __name__ == '__main__':
         print("    {} {}".format(chromosome, numoccur))
         print("       {}".format(offsets))
         fname_chromosome = 'short_chromosome_{}.txt'.format(j)
+        command.append(fname_chromosome)
         fchromo = open(fname_chromosome, 'w')
         fchromo.write(chromosome)
         fchromo.close()
@@ -184,11 +186,13 @@ if __name__ == '__main__':
         print(", ".join(stroffsets), file=foffset)
     fcount.close()
     foffset.close()
+    print(" ".join(command))
 
     gene = random_string(8)
     print(gene)
     fcount = open('medium_count.txt', 'w')
     foffset = open('medium_offset.txt', 'w')
+    command = ['./find_gene', gene]
     for j in range(5):
         chromosome = random_chromosome(gene, j + 2, 10)
         numoccur = sol.findNumAnagrams(chromosome, gene)
@@ -196,6 +200,7 @@ if __name__ == '__main__':
         print("    {} {}".format(chromosome, numoccur))
         print("       {}".format(offsets))
         fname_chromosome = 'medium_chromosome_{}.txt'.format(j)
+        command.append(fname_chromosome)
         fchromo = open(fname_chromosome, 'w')
         fchromo.write(chromosome)
         fchromo.close()
@@ -204,3 +209,4 @@ if __name__ == '__main__':
         print(", ".join(stroffsets), file=foffset)
     fcount.close()
     foffset.close()
+    print(" ".join(command))
