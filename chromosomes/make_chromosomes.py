@@ -68,6 +68,24 @@ class Solution:
                 rv.append(oldoff + 1)
         return rv
 
+    def findAnagramsNoOverlap(self, chromosome: str, gene: str) -> List[int]:
+        with_overlap = self.findAnagrams(chromosome, gene)
+        if len(with_overlap) == 0:
+            return []
+        len_gene = len(gene)
+        without_overlap = [with_overlap[0]]
+        iprev = 0
+        for i in range(1, len(with_overlap)):
+            dist = with_overlap[i] - iprev
+            if dist >= len_gene:
+                without_overlap.append(with_overlap[i])
+                iprev = i
+        return without_overlap
+
+    def findNumAnagramsNoOverlap(self, chromosome: str, gene: str) -> int:
+        without_overlap = self.findAnagramsNoOverlap(chromosome, gene)
+        return len(without_overlap)
+
     def findNumAnagrams(self, chromosome: str, gene: str) -> int:
         len_gene = len(gene)
         len_chromosome = len(chromosome)
@@ -115,8 +133,17 @@ class TestAllAnagrams(unittest.TestCase):
         output = sol.findAnagrams(s, p)
         expected = [0, 1, 2]
         self.assertEqual(expected, output)
+
+        output = sol.findAnagramsNoOverlap(s, p)
+        expected = [0, 2]
+        self.assertEqual(expected, output)
+
         output = sol.findNumAnagrams(s, p)
         expected = 3
+        self.assertEqual(expected, output)
+
+        output = sol.findNumAnagramsNoOverlap(s, p)
+        expected = 2
         self.assertEqual(expected, output)
 
     def test3(self):
@@ -163,7 +190,7 @@ def random_chromosome(gene: str, min_num_occur: int, max_space: int) -> str:
 
 
 if __name__ == '__main__':
-    # unittest.main()
+    #unittest.main()
     sol = Solution()
     gene = 'AG'
     print(gene)
