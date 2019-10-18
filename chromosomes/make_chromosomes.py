@@ -10,8 +10,8 @@ from typing import List
 
 
 class string_key:
-    hash_alpha = [hash(c) for c in string.ascii_lowercase]
-    off_a = ord('a')
+    hash_alpha = [hash(c) for c in string.ascii_uppercase]
+    off_a = ord('A')
 
     def __init__(self, key_string, N=-1):
         if N == -1:
@@ -99,8 +99,8 @@ class Solution:
 class TestAllAnagrams(unittest.TestCase):
     def test1(self):
         sol = Solution()
-        s = "cbaebabacd"
-        p = "abc"
+        s = "CBAEBABACD"
+        p = "ABC"
         output = sol.findAnagrams(s, p)
         expected = [0, 6]
         self.assertEqual(expected, output)
@@ -110,8 +110,8 @@ class TestAllAnagrams(unittest.TestCase):
 
     def test2(self):
         sol = Solution()
-        s = "agag"
-        p = "ag"
+        s = "AGAG"
+        p = "AG"
         output = sol.findAnagrams(s, p)
         expected = [0, 1, 2]
         self.assertEqual(expected, output)
@@ -121,8 +121,8 @@ class TestAllAnagrams(unittest.TestCase):
 
     def test3(self):
         sol = Solution()
-        s = "ab"
-        p = "ab"
+        s = "AB"
+        p = "AB"
         output = sol.findAnagrams(s, p)
         expected = [0]
         self.assertEqual(expected, output)
@@ -132,8 +132,8 @@ class TestAllAnagrams(unittest.TestCase):
 
     def test4(self):
         sol = Solution()
-        s = "a"
-        p = "ab"
+        s = "A"
+        p = "AB"
         output = sol.findAnagrams(s, p)
         expected = []
         self.assertEqual(expected, output)
@@ -142,7 +142,7 @@ class TestAllAnagrams(unittest.TestCase):
         self.assertEqual(expected, output)
 
 
-NUCLEOTIDES = 'agctu'
+NUCLEOTIDES = 'AGCTU'
 
 
 def random_string(gene_length: int) -> str:
@@ -165,7 +165,7 @@ def random_chromosome(gene: str, min_num_occur: int, max_space: int) -> str:
 if __name__ == '__main__':
     # unittest.main()
     sol = Solution()
-    gene = 'ag'
+    gene = 'AG'
     print(gene)
     fcount = open('short_count.txt', 'w')
     foffset = open('short_offset.txt', 'w')
