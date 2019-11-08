@@ -22,6 +22,8 @@ class chain_of_command:
         supr = rel[:6]
         emp = rel[6:]
         self._relation.append((emp, supr))
+        if emp in self._supervised_by:
+            raise RuntimeError(emp + ' has multiple supervisors')
         self._supervised_by[emp] = supr
         if supr in self._supervises:
             self._supervises[supr].append(emp)
