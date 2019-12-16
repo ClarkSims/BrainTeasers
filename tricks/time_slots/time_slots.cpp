@@ -1,4 +1,4 @@
-// g++ -std=c++14 -O4 -o time_slots time_slots.cpp
+// g++ -std=c++11 -O4 -o time_slots time_slots.cpp
 #define UNITTEST 0
 
 #if UNITTEST
@@ -203,7 +203,7 @@ int main() {
   time_slots ts(num_slots);
   char command;
   int i1, i2, count;
-  while (scanf("%c %d %d", &command, &i1, &i2)) {
+  while (scanf("%c %d %d", &command, &i1, &i2) != EOF) {
     if (command == 'd') {
       ts.add_update(i1, i2);
       printf("-\n");
