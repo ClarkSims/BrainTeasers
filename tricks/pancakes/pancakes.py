@@ -113,14 +113,19 @@ class TestPancake(unittest.TestCase):
 
 
 def commandline_main():
+    run_unit_test = (len(sys.argv) > 0 and sys.argv[1] == '-u')
     verbose = (len(sys.argv) > 0 and sys.argv[1] == '-v')
     debug = len(sys.argv) > 0 and sys.argv[1] == '-vv'
-    pancakes = []
-    for line in sys.stdin:
-        pansize = int(line)
-        pancakes.append(pansize)
-    num_flip = pancakeSort(pancakes, verbose, debug)
-    print('moves:', num_flip)
+    if run_unit_test:
+        sys.argv = [sys.argv[0]]
+        unittest.main()
+    else:
+        pancakes = []
+        for line in sys.stdin:
+            pansize = int(line)
+            pancakes.append(pansize)
+        num_flip = pancakeSort(pancakes, verbose, debug)
+        print('moves:', num_flip)
 
 
 if __name__ == '__main__':
