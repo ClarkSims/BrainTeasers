@@ -47,7 +47,9 @@ class Solution:
                 if empid in dag:
                     for supid in dag[empid]:
                         num_valentine[supid] += 1
-                        next_lowest.add(supid)
+                        in_degree[supid] -= 1
+                        if in_degree[supid] == 0:
+                            next_lowest.add(supid)
             lowest = next_lowest
 
         ret_list = [(name, count) for name, count in num_valentine.items()]
