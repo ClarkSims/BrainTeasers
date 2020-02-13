@@ -12,7 +12,6 @@ from typing import List, Tuple
 class Solution:
     def Valentines(self, hr_record: List[str]) -> List[Tuple]:
         dag = {}
-        num_valentine = {}
         in_degree = {}
         for rec in hr_record:
             sup = rec[:6]
@@ -28,27 +27,28 @@ class Solution:
             else:
                 dag[emp] = [sup]
             in_degree[sup] += 1
-            num_valentine[sup] = 0
 
         lowest = set()
+        num_valentine = {}
         for empid, degree in in_degree.items():
             if degree == 0:
                 lowest.add(empid)
+            else:
+                num_valentine[empid] = 0
 
-        next_lowest = set()
         while len(lowest) > 0:
-            #print('lowest = ', lowest)
-            for emp in lowest:
-                if emp in dag:
-                    has_from_underlings = True
-                    for sup in dag[emp]:
-                        num_valentine[sup] += 1
-                        if emp in num_valentine and has_from_underlings:
-                            has_from_underlings = False
-                            num_valentine[sup] += num_valentine[emp]
-                        next_lowest.add(sup)
-            lowest = next_lowest
             next_lowest = set()
+            for empid in lowest:
+                # give valentines from subordinates to first supervisor
+                if empid in num_valentine and empid in dag:
+                    supid = dag[empid][0]
+                    num_valentine[supid] += num_valentine[empid]
+                # write one valentine to each supervisor
+                if empid in dag:
+                    for supid in dag[empid]:
+                        num_valentine[supid] += 1
+                        next_lowest.add(supid)
+            lowest = next_lowest
 
         ret_list = [(name, count) for name, count in num_valentine.items()]
 
