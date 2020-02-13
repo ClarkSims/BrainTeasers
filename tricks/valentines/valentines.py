@@ -40,9 +40,11 @@ class Solution:
             #print('lowest = ', lowest)
             for emp in lowest:
                 if emp in dag:
+                    has_from_underlings = True
                     for sup in dag[emp]:
                         num_valentine[sup] += 1
-                        if emp in num_valentine:
+                        if emp in num_valentine and has_from_underlings:
+                            has_from_underlings = False
                             num_valentine[sup] += num_valentine[emp]
                         next_lowest.add(sup)
             lowest = next_lowest
@@ -62,11 +64,12 @@ class TestLeftRight(unittest.TestCase):
     def test1(self):
         s = Solution()
         input = ['aaaaaabbbbbb', 'aaaaaacccccc', 'aaaaaadddddd']
-        expected = [(3, 'aaaaaa')]
+        expected = [('aaaaaa', 3)]
         output = s.Valentines(input)
         self.assertEqual(expected, output)
 
     def test2(self):
+        s = Solution()
         input = ['aaaaaabbbbbb', 'aaaaaacccccc', 'aaaaaadddddd',
                  'zzzzzzbbbbbb', 'zzzzzzcccccc', 'zzzzzzdddddd',
                  'yyyyyyaaaaaa', 'yyyyyyzzzzzz']
