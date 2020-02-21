@@ -1,30 +1,6 @@
 //g++ -std=c++14 -g -o fun_with_sets fun_with_sets.cpp
-#include <algorithm>
-#include <assert.h>
-#include <bitset>
-#include <climits>
-#include <cmath>
-#include <cstdio>
-#include <cstdlib>
-#include <cstring>
-#include <ctime>
-#include <deque>
-#include <fstream>
-#include <gtest/gtest.h>
-#include <iostream>
-#include <limits>
-#include <list>
-#include <map>
-#include <numeric>
-#include <queue>
-#include <set>
-#include <sstream>
-#include <stack>
-#include <stdint.h>
-#include <string>
-#include <unordered_map>
-#include <unordered_set>
-#include <vector>
+#include <stdio.h>
+#include <string.h>
 
 using namespace std;
 
@@ -39,7 +15,7 @@ struct datum {
 
 #define LARGE_PRIME 48779
 #define MAX_OFFSET 1048576
-static_assert((MAX_OFFSET - 1) % LARGE_PRIME != 0);
+static_assert(MAX_OFFSET % LARGE_PRIME != 0);
 
 unsigned calc_hash(const char* str) {
   unsigned rv = 0;
@@ -48,9 +24,8 @@ unsigned calc_hash(const char* str) {
     rv += *str;
     ++str;
   }
-  rv %= (MAX_OFFSET-1);
-  //0 is not allowed
-  ++rv;
+  rv %= MAX_OFFSET;
+  return rv;
 }
 
 datum data[MAX_OFFSET];
@@ -59,21 +34,32 @@ int num_data = 0;
 
 datum* add_word(const char ** argv, unsigned off) {
   unsigned hash = calc_hash(argv[off]);
-  datum* pnode = bins[hash];
+  datum* pnode = bins[hash], *prev_pnode = nullptr;
 
+  // search through bin for new key
   while (pnode != nullptr) {
     if (strcmp(pnode->key, argv[off]) == 0) {
+      // key found, so return node
       ++pnode->count;
       return pnode;
     }
+    prev_pnode = pnode;
     pnode = pnode->next;
   }
+
+  // key not found, create node
   pnode = &data[num_data];
   ++num_data;
   pnode->key = argv[off];
   pnode->count = 1;
   pnode->offset = off;
-  bins[hash] = pnode;
+
+  // add node to end of list, or make head if list empty
+  if (prev_pnode == nullptr) {
+    bins[hash] = pnode;
+  } else {
+    prev_pnode->next = pnode;
+  }
   return pnode;
 }
 
@@ -110,8 +96,8 @@ int print_set_diff(int argc, const char*argv[]) {
 
 #if 0
 int main() {
-  const char *argv[3] = {"", "2", "2"};
-  print_set_diff(3, argv);
+  const char *argv[5] = {"", "1", "2", "3", "2"};
+  print_set_diff(5, argv);
 }
 #else
 
