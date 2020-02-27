@@ -1,0 +1,1001 @@
+10
+put 9 3
+put 5 14
+get 14
+get 18
+get 16
+put 14 5
+put 11 12
+get 3
+get 3
+put 6 20
+get 14
+put 11 8
+put 8 9
+put 19 0
+get 9
+get 6
+put 10 7
+put 1 16
+get 17
+get 7
+put 16 11
+put 4 7
+put 17 16
+put 11 5
+get 8
+put 12 19
+put 8 4
+get 19
+get 10
+get 17
+put 3 4
+get 3
+put 11 3
+put 3 13
+put 13 18
+put 16 20
+put 19 4
+get 15
+get 16
+get 7
+put 4 15
+put 0 7
+put 0 20
+put 6 16
+put 17 6
+get 16
+get 20
+put 17 19
+get 4
+get 1
+get 2
+get 1
+get 3
+put 0 9
+put 3 20
+put 16 6
+put 14 1
+get 4
+put 2 4
+put 12 5
+put 0 16
+put 13 10
+get 3
+put 20 10
+put 18 16
+get 16
+put 15 6
+put 11 6
+get 17
+get 3
+put 6 11
+put 14 18
+get 13
+get 17
+get 19
+get 3
+get 11
+get 0
+put 14 9
+put 14 9
+get 18
+put 17 11
+put 6 10
+get 14
+put 18 1
+get 3
+put 5 8
+get 11
+get 16
+put 4 1
+put 8 3
+put 11 17
+get 7
+get 4
+get 7
+put 4 5
+get 18
+put 4 18
+put 16 19
+put 16 14
+put 10 17
+put 5 8
+get 9
+get 14
+get 1
+put 20 12
+get 17
+put 16 15
+put 2 20
+put 19 11
+get 3
+get 16
+get 17
+put 14 8
+get 4
+get 17
+get 5
+put 2 11
+get 8
+get 9
+get 13
+put 9 14
+get 14
+put 13 9
+put 11 20
+put 20 6
+get 17
+get 10
+get 13
+get 11
+get 16
+get 17
+get 1
+get 3
+get 12
+get 8
+put 15 1
+get 1
+put 13 11
+get 14
+put 19 2
+get 12
+put 10 14
+put 10 1
+get 14
+get 15
+get 20
+get 18
+get 20
+get 3
+put 13 18
+put 10 2
+get 15
+put 19 4
+put 7 11
+put 3 11
+put 15 1
+get 17
+get 15
+get 4
+put 4 3
+put 14 10
+get 14
+get 14
+put 7 20
+get 11
+put 3 6
+get 17
+get 7
+get 12
+put 12 14
+get 15
+put 16 19
+put 18 5
+get 13
+get 15
+get 3
+put 14 9
+get 1
+put 14 3
+put 5 14
+put 4 2
+put 19 10
+put 4 8
+get 6
+get 19
+get 0
+put 9 3
+put 8 13
+put 19 7
+get 17
+put 3 20
+put 11 7
+put 7 20
+put 3 6
+get 19
+get 13
+put 13 9
+put 7 14
+get 10
+put 18 4
+get 8
+put 16 6
+get 8
+get 3
+get 4
+put 19 16
+get 6
+put 15 0
+get 9
+put 4 19
+put 10 3
+put 10 9
+put 17 5
+get 12
+put 6 6
+get 4
+put 10 2
+get 7
+get 15
+put 7 17
+put 11 5
+put 14 8
+put 7 16
+put 16 11
+get 4
+put 9 8
+put 12 12
+put 11 17
+get 11
+put 6 16
+get 1
+put 9 11
+get 0
+put 4 19
+get 5
+get 18
+put 3 12
+put 12 2
+put 5 6
+put 4 17
+get 6
+get 19
+get 4
+get 17
+put 5 11
+put 3 19
+put 12 9
+put 0 7
+put 6 2
+get 16
+put 15 9
+get 20
+get 14
+get 11
+get 17
+get 15
+get 19
+put 4 0
+get 18
+get 2
+get 0
+get 12
+put 11 12
+get 12
+get 2
+put 18 18
+get 1
+get 18
+get 5
+put 16 19
+get 5
+put 3 20
+put 18 8
+put 14 11
+get 0
+put 12 17
+put 0 19
+put 7 5
+put 13 18
+put 7 10
+get 9
+put 0 16
+get 10
+get 0
+get 3
+get 13
+put 7 2
+put 8 11
+get 17
+get 2
+get 12
+put 15 5
+put 6 15
+get 11
+get 17
+get 6
+put 12 12
+put 1 20
+put 0 6
+get 18
+put 5 1
+get 2
+get 0
+get 20
+put 14 11
+get 20
+get 1
+get 4
+put 18 8
+put 2 7
+put 7 17
+put 8 10
+get 16
+put 19 10
+put 19 17
+put 14 5
+put 15 8
+get 20
+put 7 15
+put 3 8
+put 15 3
+put 19 6
+put 13 16
+get 19
+get 15
+get 16
+get 20
+put 11 4
+put 2 19
+put 13 19
+get 6
+get 5
+get 16
+get 12
+put 10 14
+get 2
+get 20
+get 16
+get 15
+put 6 11
+put 2 2
+put 8 16
+get 4
+get 4
+put 0 3
+put 7 0
+get 14
+put 14 5
+get 8
+put 2 12
+get 5
+put 16 15
+get 19
+put 6 3
+get 11
+put 7 3
+put 10 10
+get 2
+get 20
+get 1
+get 6
+get 14
+get 16
+get 15
+get 15
+get 2
+put 2 12
+get 0
+put 13 3
+get 15
+put 4 5
+get 0
+get 20
+get 13
+put 20 7
+get 15
+put 9 11
+put 2 19
+put 4 12
+get 12
+put 14 4
+put 18 15
+put 0 12
+get 13
+put 12 3
+get 6
+put 6 0
+put 18 1
+put 12 11
+put 6 9
+get 18
+get 9
+get 13
+put 7 15
+put 15 5
+get 18
+put 13 7
+put 5 2
+get 19
+put 7 14
+get 2
+get 2
+get 16
+get 13
+put 12 15
+get 12
+get 14
+get 1
+put 20 19
+put 5 5
+put 7 18
+get 20
+put 1 2
+put 7 19
+put 7 14
+put 5 1
+put 2 12
+get 20
+get 1
+get 18
+get 19
+put 17 11
+get 0
+get 4
+put 6 10
+get 4
+put 11 2
+get 18
+get 4
+put 19 2
+get 1
+get 8
+put 2 18
+get 13
+put 5 10
+get 16
+get 10
+put 13 4
+get 1
+get 6
+get 4
+put 6 15
+get 4
+get 3
+put 13 15
+get 19
+put 7 3
+get 20
+put 15 6
+put 2 10
+get 12
+put 17 19
+put 8 15
+put 6 15
+get 14
+get 15
+get 6
+put 7 6
+put 15 18
+put 2 20
+put 3 20
+put 16 7
+put 17 17
+put 16 13
+get 1
+put 12 1
+get 18
+get 15
+put 17 20
+put 20 4
+put 0 13
+get 2
+get 9
+put 14 20
+get 17
+get 5
+get 11
+get 15
+put 16 18
+get 14
+get 9
+put 11 15
+get 9
+get 5
+put 11 19
+put 10 1
+put 13 14
+get 16
+put 16 1
+put 6 19
+put 18 16
+get 5
+put 19 9
+put 12 13
+put 15 10
+get 6
+get 18
+put 8 14
+get 4
+put 19 10
+get 17
+get 13
+get 11
+get 20
+get 4
+get 8
+get 0
+put 11 3
+put 10 3
+get 7
+put 1 4
+put 4 9
+get 19
+put 14 5
+get 0
+put 11 3
+get 15
+put 12 11
+get 15
+get 5
+get 6
+get 17
+put 2 6
+put 11 10
+get 11
+put 4 19
+get 11
+put 11 3
+get 3
+get 18
+get 18
+get 15
+put 15 20
+put 14 2
+get 6
+get 6
+put 7 13
+put 12 4
+put 2 2
+put 7 12
+get 8
+get 19
+get 17
+put 14 18
+get 3
+put 3 16
+get 8
+get 4
+get 18
+get 10
+put 19 1
+put 15 15
+get 8
+put 17 0
+put 8 20
+put 11 12
+get 4
+get 14
+get 19
+get 18
+put 5 6
+put 14 14
+get 16
+put 18 3
+get 8
+put 19 9
+put 3 8
+put 4 18
+put 11 12
+put 19 20
+put 3 14
+get 7
+get 0
+put 2 15
+get 18
+put 5 19
+get 12
+put 7 7
+get 16
+put 20 1
+put 18 0
+get 0
+put 1 16
+put 12 11
+get 11
+get 11
+get 18
+get 1
+put 3 8
+get 16
+get 9
+put 13 16
+get 1
+put 9 16
+put 1 10
+put 3 14
+put 7 18
+put 11 8
+put 2 8
+put 20 15
+put 12 13
+get 5
+put 19 12
+get 13
+put 4 2
+get 1
+put 3 10
+put 17 10
+get 9
+get 1
+put 19 4
+get 12
+put 15 20
+get 19
+put 3 5
+put 7 19
+put 6 6
+put 5 18
+get 15
+put 14 16
+get 15
+put 20 5
+get 9
+get 9
+put 1 12
+put 10 20
+put 3 15
+put 15 11
+put 10 2
+put 19 5
+get 9
+put 18 13
+put 20 14
+put 14 18
+put 20 7
+put 1 7
+put 2 1
+get 1
+get 2
+put 13 12
+get 17
+get 10
+put 9 3
+get 17
+put 1 11
+get 7
+put 6 10
+get 3
+put 8 13
+put 2 0
+put 6 12
+get 16
+put 11 20
+get 1
+get 14
+get 6
+put 7 10
+get 19
+get 10
+get 14
+get 12
+get 11
+put 16 2
+put 16 5
+put 12 11
+put 14 11
+put 3 16
+put 1 0
+get 17
+get 5
+get 2
+get 10
+get 9
+put 1 12
+put 13 5
+put 17 15
+put 16 16
+put 15 2
+get 11
+put 17 1
+get 6
+put 1 4
+get 12
+put 4 18
+put 0 13
+put 0 1
+put 1 6
+put 17 0
+get 1
+put 18 0
+get 17
+put 17 14
+put 16 15
+put 6 2
+get 1
+get 4
+put 3 18
+get 14
+put 12 15
+put 4 3
+put 19 18
+put 19 20
+put 19 3
+get 13
+put 8 20
+put 4 18
+put 0 6
+put 17 11
+put 7 15
+put 0 4
+put 14 19
+get 4
+get 1
+put 10 20
+get 10
+get 8
+get 17
+get 0
+put 12 5
+get 17
+put 2 2
+put 20 6
+put 19 9
+get 9
+put 3 17
+get 3
+get 10
+get 12
+put 2 11
+put 15 19
+put 4 14
+get 2
+put 3 14
+put 9 6
+put 8 11
+get 16
+get 4
+get 5
+get 7
+get 3
+put 13 15
+get 15
+put 9 10
+get 15
+get 8
+put 17 13
+get 3
+put 8 6
+put 12 6
+get 12
+put 16 0
+get 18
+put 18 0
+put 15 8
+get 7
+put 8 10
+get 16
+put 8 10
+get 18
+get 4
+put 9 6
+get 20
+put 18 13
+get 20
+get 9
+put 1 8
+get 14
+put 17 4
+get 12
+get 15
+put 2 0
+get 9
+get 20
+get 13
+put 15 9
+put 19 14
+get 17
+put 5 14
+get 3
+put 7 15
+put 13 0
+put 14 19
+get 13
+get 13
+put 11 0
+put 6 7
+get 13
+put 20 0
+put 2 11
+put 9 7
+put 6 3
+put 10 6
+put 9 16
+put 16 16
+get 4
+get 9
+put 13 3
+put 6 0
+put 1 8
+get 18
+get 3
+put 15 16
+put 19 16
+get 0
+put 20 10
+put 17 13
+put 0 3
+get 8
+get 3
+get 20
+get 20
+put 17 18
+get 12
+get 20
+get 13
+get 15
+put 8 10
+put 3 8
+put 2 18
+put 1 2
+get 10
+get 10
+put 19 0
+get 14
+put 0 10
+put 13 1
+get 8
+get 10
+get 17
+put 7 10
+put 11 6
+put 9 2
+get 8
+get 8
+get 13
+put 8 9
+get 17
+get 17
+get 13
+get 12
+get 3
+put 13 10
+get 18
+put 11 14
+get 3
+put 19 15
+put 14 8
+put 15 4
+put 17 13
+get 3
+get 13
+put 5 16
+put 9 15
+put 12 16
+put 13 19
+put 4 19
+get 7
+get 11
+put 20 14
+get 10
+put 4 16
+get 16
+get 12
+get 16
+get 2
+put 17 10
+get 1
+get 19
+put 1 20
+get 11
+get 9
+put 8 18
+put 7 3
+get 7
+put 3 16
+get 4
+put 19 5
+put 17 3
+put 17 12
+put 5 0
+get 8
+put 1 14
+get 14
+get 7
+get 5
+get 17
+get 1
+put 20 0
+get 17
+put 1 8
+put 3 10
+put 15 12
+put 8 1
+get 20
+get 9
+put 0 13
+put 1 18
+put 8 20
+put 20 18
+get 15
+put 4 13
+get 19
+get 4
+put 13 5
+get 18
+put 10 12
+get 10
+put 13 15
+get 6
+get 12
+put 2 6
+get 11
+get 9
+put 3 4
+get 4
+put 16 4
+put 5 12
+put 2 19
+get 20
+get 8
+get 11
+get 7
+get 17
+put 14 8
+put 12 14
+get 0
+put 19 16
+get 17
+get 12
+get 16
+put 15 10
+put 12 5
+get 1
+get 13
+get 11
+get 16
+put 7 18
+put 17 10
+put 9 12
+put 14 17
+put 20 15
+put 19 19
+put 3 6
+get 9
+put 1 9
+get 16
+get 7
+put 19 0
+put 19 13
+get 12
+get 14
+get 11
+put 8 20
+put 5 7
+get 13
+put 14 5
+get 20
+get 14
+get 7
+put 16 13
+get 9
+get 13
+put 12 18
+put 18 8
+get 15
+put 16 14
+put 1 0
+get 10
+put 8 10
+put 14 4
+get 17
+get 7
+put 17 12
+get 12
+put 11 7
+put 5 7
+get 4
+get 4
+get 19
+put 8 1
+get 4
+get 18
+put 13 14
+get 1
+get 12
+put 12 14
+get 18
+get 5
+get 8
+get 7
+put 0 17
+put 12 6
+put 11 0
+put 15 4
+put 15 11
+put 5 20
+get 16
+put 20 17
+put 11 7
